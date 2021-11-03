@@ -19,7 +19,7 @@ const Technologies = () =>  (
         <ListParagraph>
           Experience with <br/>
           HTML/CSS/JavaScript, Python, <br/>
-          Shell Scripting
+          C/C++,Shell Scripting
         </ListParagraph>
       </ListContainer>
       </ListItem>
