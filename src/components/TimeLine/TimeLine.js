@@ -45,9 +45,10 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>Hey there! I am Farhan Ansari.I am currently persuing my Bachelors in Computer Engineering from GEC Gandhinagar, Gujarat.
-        As you can see, my main area of focus is Cyber-Security. I have done projects in this field and have gained some experience on how things
-        work here. I am currently looking for internships, learning opportunities and connecting with like-minded people.
+      <SectionText>Hey there! I am Farhan Ansari. I am currently pursuing my Bachelors in Computer Engineering from GEC Gandhinagar, Gujarat.
+        As you can see, my primary area of focus is Cyber-Security. I have done quite a few projects in this field and have gained some
+        experience on how things work here. I am currently seeking out internships, learning opportunities and connecting with
+        like-minded individuals.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>
