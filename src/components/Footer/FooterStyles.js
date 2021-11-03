@@ -65,6 +65,15 @@ export const CompanyContainer = styled.div`
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
+	.quote {                                           /* for the quote*/
+		margin: 0;    
+		background: #212D45;
+		padding: 0.3em;
+		border-radius: 1em;
+	  }
+	  .quote blockquote {
+		margin: 0.3em;
+	  }
 	
 
 	@media ${props => props.theme.breakpoints.md}{

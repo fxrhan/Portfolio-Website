@@ -14,12 +14,15 @@ const Footer = () => {
       </LinkColumn>
       <LinkColumn>
       <LinkTitle>E-Mail</LinkTitle>
-      <LinkItem href="mailto:fxrhanansari@gmail.com">fxrhanansari@gmail.com</LinkItem>
+      <LinkItem href="mailto:bl00dw0lf@protonmail.com">bl00dw0lf@protonmail.com</LinkItem>
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>The Future Is Here</Slogan>
+          <figure class = "quote"><blockquote>
+          <Slogan><i><b><q> As cybersecurity leaders, we have to create our message of influence<br/> because security is 
+            a culture and you need the business to take place <br/>and be part of that security culture. </q></b></i></Slogan></blockquote>
+            </figure>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href = "https://github.com/fxrhan">

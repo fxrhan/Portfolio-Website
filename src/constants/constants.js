@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'School Management System',
-    description: "This school management system was designed specifically for reducing the amount of paper work in educational institutions. It has various modules for students, teachers, and admins where an number of tasks such as taking attendance and admissions, recruting teachers, uploading the results of students, ask for leave and much more...",
+    description: "This school management system was designed specifically for reducing the amount of paper work in educational institutions. It has various modules for students, teachers, and admins where an number of tasks such as taking attendance and admissions, recruiting teachers, uploading the results of students, ask for leave and much more...",
       image: '/images/1.png',
       tags: ['HTML/CSS/JS', 'Python', 'Django', 'SQLite'],
     
