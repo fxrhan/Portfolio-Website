@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Vigenere Cipher Encoder & Decoder',
-    description:"This program encrypts and decrypts our data into an unreadable format i.e cipher text. It is based in the Vigenere theory and the same is implemeted in the project for encryption and decryption.",
+    description:"This project was one of my very first projects in cryptography. It encrypts and decrypts our data into an unreadable format i.e cipher text. It is based in the Vigenere theory and the same is implemeted in the program. Have fun with it.",
     image: '/images/2.png',
     tags: ['Python'],
     
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'USB Stealer',
-    description: "The usage of this Stealer is very easy and it doesn't require much technical knowledge.Just plug the USB stick in the victims PC/Laptop and run the launch bat file. It will copy all browser saved passwords and cookies in a log file.",
+    description: "The usage of this Stealer is very easy and it doesn't require much technical knowledge. Just plug the USB stick in the victims PC/Laptop and run the launch bat file. It will copy all browser saved passwords and cookies in a log file.",
     image: '/images/4.jpg',
     tags: ['Shell Script', 'Batch'],
     

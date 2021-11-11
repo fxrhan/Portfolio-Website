@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a lot of technologies in the Cyber-Security field from basic coding to Penetration Testing.
+      I have worked with a lot of technologies from coding in different languages to proceses such as Penetration Testing.
     </SectionText>
     <List>
       <ListItem>
