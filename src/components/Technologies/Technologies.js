@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a lot of technologies from coding in different languages to proceses such as Penetration Testing.
+      I have worked with a lot of technologies from coding in different languages to processes such as Penetration Testing.
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
         <ListParagraph>
           Experience with <br/>
           HTML/CSS/JavaScript, Python, <br/>
-          C/C++,Shell Scripting
+          C/C++, Shell Scripting
         </ListParagraph>
       </ListContainer>
       </ListItem>
