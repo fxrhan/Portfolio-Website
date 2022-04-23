@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a lot of technologies from coding in different languages to processes such as Penetration Testing.
+      I have worked with a lot of technologies from coding in different languages to processes such as Penetration Testing. Currently I am trying my hands on FLutter and Decentralized Apps on Web 3.0
     </SectionText>
     <List>
       <ListItem>
