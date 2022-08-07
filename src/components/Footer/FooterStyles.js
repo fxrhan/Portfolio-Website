@@ -65,7 +65,7 @@ export const CompanyContainer = styled.div`
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
-	.quote {                                           /* for the quote*/
+	.quote {                                           /* for the quote */
 		margin: 0;    
 		background: #212D45;
 		padding: 0.3em;
