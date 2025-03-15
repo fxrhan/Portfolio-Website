@@ -6,9 +6,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy":"gh-pages -d build",
-    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
     "next": "^10.2.3",
