@@ -6,7 +6,7 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
-
+  position: relative;
 
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
@@ -166,3 +166,34 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+
+export const BackToTopButton = styled.button`
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #212D45;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 10;
+
+  &:hover {
+    background-color: #0F1624;
+    transform: translateY(-5px);
+  }
+
+  @media ${props => props.theme.breakpoints.sm} {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+`;

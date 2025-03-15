@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 200px; /* Fixed height for all images */
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px 10px 0 0;
 `
 
 export const GridContainer = styled.section`
@@ -27,6 +28,9 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -70,13 +74,17 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
+  font-size: 1.6rem;
   line-height: 24px;
   text-align: justify;
+  min-height: 120px; /* Ensure consistent height */
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
-}
+    padding: .3rem;
+    min-height: auto;
+  }
 `;
 
 
@@ -85,7 +93,8 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
+  width: 100%;
 `;
 
 export const ExternalLinks = styled.a`
@@ -102,11 +111,15 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
-padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  margin: 0;
+  width: 100%;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
-font-size: 1.5rem;
+  color: #d8bfbf;
+  font-size: 1.5rem;
+  margin: 0.5rem;
 `

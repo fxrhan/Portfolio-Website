@@ -8,13 +8,12 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br/>
-        My Personal Portfolio
+        Hi, I'm Farhan Ansari
       </SectionTitle>
       <SectionText>
-        Hey there! I am Farhan Ansari, I am a Cyber-Security Engineer looking to connect with like-minded people.
+        I'm a Cyber-Security Engineer passionate about creating secure digital environments. With expertise in network security, penetration testing, and security analysis, I help organizations protect their valuable data and systems.
       </SectionText>
-      <Button onClick={() => window.location = 'https://linktr.ee/Fxrhan'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://linktr.ee/Fxrhan'}>Connect With Me</Button>
     </LeftSection>
   </Section>
 );
