@@ -1,15 +1,73 @@
-## Personal Portfolio
-This is a Personal Portfolio website I created using React JS.<br/>
-This website is responsive and will work perfectly in Mobile, Desktop, Tablet etc.
+# Personal Portfolio Website
 
-## How to run this Project
-- Install NPM 
-- Open this folder in VS Code or any editor and navigate to the terminal
-- Run the command ``` npm i ```. It will take a few minutes to install the required programs
-- Now run ``` npm run dev ```
-- After this the project preview will be available on ``` http://localhost:3000 ```
-- You are free to use this code and make the required changes according to your portfolio.
-- Happy Hacking
+A modern, responsive portfolio website built with Next.js and React to showcase my projects and skills as a Cyber-Security Engineer.
 
-## Feedback
-<h3>Any suggestion and feedback is welcome. You can contact me here <br> - https://linktr.ee/Fxrhan .</h3>
+![Portfolio Preview](public/images/projects.jpeg)
+
+## 🚀 Features
+
+- **Modern UI/UX**: Clean, professional design with responsive layout
+- **Interactive Navigation**: Sticky header with smooth scrolling
+- **Project Showcase**: Highlighted projects with GitHub and demo links
+- **Mobile-Friendly**: Optimized for all devices with a hamburger menu for mobile
+- **Performance Optimized**: Fast loading times and smooth animations
+
+## 🛠️ Technologies Used
+
+- **Next.js** - React framework for production
+- **Styled Components** - For component-based styling
+- **React Icons** - For beautiful icon integration
+- **CSS Grid & Flexbox** - For responsive layouts
+
+## 🏃‍♂️ How to Run This Project
+
+1. **Prerequisites**
+   - Node.js (v12 or higher)
+   - npm or yarn
+
+2. **Installation**
+   ```bash
+   # Clone the repository
+   git clone https://github.com/fxrhan/Portfolio-Website.git
+   
+   # Navigate to the project directory
+   cd Portfolio-Website
+   
+   # Install dependencies
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Development**
+   ```bash
+   # Run the development server
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Access the website**
+   - Open your browser and navigate to `http://localhost:3000`
+
+## 📱 Deployment
+
+This project is deployed on Heroku. You can view the live site at:
+[https://immense-island-34993.herokuapp.com/](https://immense-island-34993.herokuapp.com/)
+
+## 🔄 Recent Updates
+
+- Improved navbar layout with better spacing and alignment
+- Enhanced mobile responsiveness
+- Removed email section from footer for privacy
+- Added back-to-top button for better navigation
+- Improved project cards with consistent sizing
+
+## 📝 License
+
+Feel free to use this code and make the required changes according to your portfolio.
+
+## 📬 Feedback
+
+Any suggestions and feedback are welcome. You can contact me here:
+- [Linktree](https://linktr.ee/Fxrhan)
