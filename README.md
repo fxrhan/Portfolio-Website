@@ -50,10 +50,6 @@ A modern, responsive portfolio website built with Next.js and React to showcase 
 4. **Access the website**
    - Open your browser and navigate to `http://localhost:3000`
 
-## 📱 Deployment
-
-This project is deployed on Heroku. You can view the live site at:
-[https://immense-island-34993.herokuapp.com/](https://immense-island-34993.herokuapp.com/)
 
 ## 🔄 Recent Updates
 
