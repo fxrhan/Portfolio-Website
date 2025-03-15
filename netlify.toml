@@ -1,10 +1,11 @@
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = "out"
 
 [build.environment]
   NODE_VERSION = "16.14.0"
   NODE_OPTIONS = "--openssl-legacy-provider"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"

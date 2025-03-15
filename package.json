@@ -5,10 +5,14 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
   },
   "dependencies": {
     "next": "^10.2.3",
